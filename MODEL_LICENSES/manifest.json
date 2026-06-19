@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-19T00:00:00Z",
+  "note": "This manifest lists known models and links to their license pages. Models/weights are NOT included in this repo.",
+  "models": [
+    {
+      "id": "gemma-13b",
+      "displayName": "Gemma 13B",
+      "source": "https://huggingface.co/meta/gemma-13b",
+      "license_name": "See source",
+      "license_url": "https://huggingface.co/meta/gemma-13b/blob/main/LICENSE",
+      "checksum_sha256": "<insert-locally-after-download>",
+      "recommended_quantized": "gemma-13b-q4_0.gguf",
+      "notes": "Check model source for commercial use restrictions."
+    },
+    {
+      "id": "sdxl",
+      "displayName": "Stable Diffusion XL (example)",
+      "source": "https://huggingface.co/stabilityai/stable-diffusion-xl",
+      "license_name": "Stability License / Check model page",
+      "license_url": "https://huggingface.co/stabilityai/stable-diffusion-xl",
+      "checksum_sha256": "<insert-locally-after-download>"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Git ignore
+
+# Android / Kotlin
+/.gradle/
+/build/
+/local.properties
+/.idea/
+/.gradle
+**/build/
+
+# Model weights & big files
+/models/*.gguf
+/models/*.bin
+/models/*.pt
+/models/**/weights/
+MODEL_LICENSES/**/weights/
+
+# Sensitive local config
+.env
+secrets.properties
