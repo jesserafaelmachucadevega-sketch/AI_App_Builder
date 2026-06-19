@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ollama",
+    "displayName": "Ollama (local/remote)",
+    "authType": "none",
+    "docsUrl": "https://ollama.com/docs",
+    "defaultApiUrl": "http://localhost:11434",
+    "defaultModelList": ["gemma-13b", "gemma-7b"],
+    "keyFormatHint": "No API key required for local Ollama. If using a hosted Ollama instance, provide the base URL.",
+    "testPath": "/v1/models",
+    "requiresOrganization": false
+  },
+  {
+    "id": "openrouter",
+    "displayName": "OpenRouter",
+    "authType": "api_key",
+    "docsUrl": "https://docs.openrouter.ai/",
+    "defaultApiUrl": "https://api.openrouter.ai",
+    "defaultModelList": ["gpt-4o-mini", "gpt-4o"],
+    "keyFormatHint": "Paste your OpenRouter key (Authorization: Bearer <KEY>)",
+    "testPath": "/v1/models",
+    "requiresOrganization": false
+  },
+  {
+    "id": "huggingface",
+    "displayName": "Hugging Face",
+    "authType": "api_key",
+    "docsUrl": "https://huggingface.co/docs/api",
+    "defaultApiUrl": "https://api-inference.huggingface.co",
+    "defaultModelList": ["stabilityai/stable-diffusion-xl", "meta/gemma-13b"],
+    "keyFormatHint": "Use 'Authorization: Bearer <HF_TOKEN>'",
+    "testPath": "/models",
+    "requiresOrganization": false
+  },
+  {
+    "id": "stability",
+    "displayName": "Stability.ai",
+    "authType": "api_key",
+    "docsUrl": "https://platform.stability.ai/docs",
+    "defaultApiUrl": "https://api.stability.ai",
+    "defaultModelList": ["stable-diffusion-xl"],
+    "keyFormatHint": "Use 'Authorization: Bearer <STABILITY_KEY>'",
+    "testPath": "/v1/engines/list",
+    "requiresOrganization": false
+  },
+  {
+    "id": "automatic1111",
+    "displayName": "AUTOMATIC1111 (local)",
+    "authType": "none",
+    "docsUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "defaultApiUrl": "http://localhost:7860",
+    "defaultModelList": ["sdxl"],
+    "keyFormatHint": "No API key for local AUTOMATIC1111. Set URL to your local instance.",
+    "testPath": "/api/version",
+    "requiresOrganization": false
+  }
+]
