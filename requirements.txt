@@ -1,0 +1,19 @@
+# OpenHands Unified Agent System
+# Requirements for the unified message bus, 2D coordinate tracker, and workspace manager
+
+# Core dependencies
+websockets>=10.0          # WebSocket server for the message bus
+
+# Optional: For GUI (tkinter should be included with Python on most systems)
+# On Ubuntu/Debian: apt install python3-tk
+# On Fedora/RHEL: dnf install python3-tkinter
+# On macOS: Already included with Python
+
+# Optional: For LibreOffice document conversion
+# libreoffice                  # Install via system package manager
+# soffice                      # Alternative command name
+
+# Development dependencies
+# pytest>=7.0.0               # For testing
+# black>=22.0.0               # Code formatting
+# mypy>=0.950                 # Type checking
